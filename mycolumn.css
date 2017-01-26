@@ -1,0 +1,41 @@
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+}
+
+ #newspaper.main-col {
+    width:  30%;
+    padding: 10px;
+    background-color:#808080;
+}
+
+#newspaper.left-col { 
+    width:  30%;
+    padding: 10px;
+    background: lightyellow;
+}
+
+.newspaper.middle-col { 
+    width:  30%;
+    padding: 10px;
+    background: purple;
+}
+
+.newspaper.right-col { 
+    width:  30%;
+    padding: 10px;
+    background: blue;
+}
+
+
+
+    

@@ -1,0 +1,48 @@
+h1.center {
+    text-align: center;
+    color: greenyellow;
+}
+
+h1 {
+    background-color: lightblue;
+}
+
+.newspaper {
+    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
+    columns: 100px 3;
+
+{
+ 
+    
+#kolkiri {
+    width:300px;
+        background-color: antiquewhite;
+    float:left;
+      }
+    
+#koltengah{
+        width: 300px;
+        background-color: aqua;
+        float:right;
+    }
+    
+    
+#diff-col .left-col { 
+    width:  30%;
+    padding: 10px;
+    background: lightyellow;
+}
+
+#diff-col .middle-col { 
+    width:  30%;
+    padding: 10px;
+    background: purple;
+}
+
+#diff-col .right-col { 
+    width:  30%;
+    padding: 10px;
+    background: blue;
+}
+}

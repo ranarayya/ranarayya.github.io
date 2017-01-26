@@ -1,0 +1,21 @@
+#kolkiri{
+    background: blue;
+    width: 300;
+    float:left
+}
+
+#koltengah{
+    width: 600;
+    background-color: aquamarine;
+    float: left;
+}
+
+#kolkanan{
+    width: auto;
+    background-color: bisque;
+    overflow: auto;
+}
+
+.newspaper{
+    
+}
