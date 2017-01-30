@@ -4,22 +4,46 @@
 <title>JavaScript Form Validation using a sample registration form</title>
 <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
 <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
-<link rel='stylesheet' href='form.css' type='text/css' />
-<script src="form.js"></script>
+<link rel='stylesheet' href='formrev.css' type='text/css' />
+<script src="formrev.js"></script>
 </head>
-<body
-  onload="document.registration.userid.focus();">
+<body>
+<!--  onload="document.registration.userid.focus();">-->
+
+     
+<div class="iframe src=""demo_iframe.htm" height="200" width="300">
     
-<h1>Registration Form</h1>
+<!--    </iframe>-->
+
+          <p>MENU UTAMA</p>
+    
+<UL type="circle">
+    <LI>HOME </LI>
+    <LI>BUKU TAMU</LI>
+    </UL>
+    </div>
+    
+
+    <form name="login">
+            <table width="225" cellpadding="4">
+            <tr><td>Username</td><td><input type="text" name="username"></td></tr>
+            <tr><td>Password</td><td><input type="text" name="password"></td></tr>
+            <tr><td colspan="2" align="right"><input type="button" value="Login" onClick="Login()"></td></tr>
+            </table>
+        
+<!--
+      <img src="https://warnasouvenir.files.wordpress.com/2015/02/buku-tamu-daur-ulang.jpg">
+
+        <img src="(http://www.walls321.com/%E5%8F%A4%E3%81%84-%E6%9C%AC-%E5%86%99%E7%9C%9F-%E9%9D%99%E7%89%A9%E7%94%BB/">
+ 
+-->
+    </form> 
+<h1>Buku Tamu - Sign guestbook</h1>
 Use tab keys to move from one input field to the next.
 
 
 <form name='registration' onSubmit="return formValidation();">
 <ul>
-<li><label for="userid">User id:</label></li>
-<li><input type="text" name="userid" size="12" /></li>
-<li><label for="passid">Password:</label></li>
-<li><input type="password" name="passid" size="12" /></li>
 <li><label for="username">Name:</label></li>
 <li><input type="text" name="username" size="50" /></li>
 <li><label for="address">Address:</label></li>
