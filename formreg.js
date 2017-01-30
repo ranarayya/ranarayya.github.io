@@ -1,29 +1,3 @@
-
-function check(form)
-
-{
-
-if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd")
-
-{
-
-alert("Your username and password is correct")
-
-}
-
-else
-
-{
-
-alert("Error Password or Username")
-
-}
-
-}
-
-
-    
-        
 function formValidation()
 {
 var uid = document.registration.userid;
@@ -174,3 +148,7 @@ window.location.reload()
 return true;
 }
 }
+
+
+
+
