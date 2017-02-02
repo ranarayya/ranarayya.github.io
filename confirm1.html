@@ -1,0 +1,37 @@
+<html>
+<head>
+<script>
+
+    // Called on body's `onload` event
+    function init() {
+        // Retrieving the text input's value which was stored into localStorage
+        var uid = localStorage.getItem("uid");
+        var passid = localStorage.getItem("passid");
+        var uname = localStorage.getItem("uname");
+        var uadd = localStorage.getItem("uadd");
+        var ucountry = localStorage.getItem("ucountry");
+        var uzip = localStorage.getItem("uzip");
+        var uemail = localStorage.getItem("uemail");
+        var umsex = localStorage.getItem("umsex");
+        var ufsex = localStorage.getItem("ufsex");
+
+        // Writing the value in the document
+        document.write("Nama = "+nama); 
+        document.write("Password = "+passid);
+        document.write("User Name = "+uname); 
+        document.write("User ID = "+uid);
+        document.write("Negara = "+ucountry); 
+        document.write("Zip = "+uzip);
+        document.write("eMail = "+uemail); 
+        document.write("Sex = "+umsex);
+        document.write("UF Sex = "+ufsex);
+    }
+ 
+</script>
+</head>    
+
+<body onload="init();">
+
+</body>
+
+</html>

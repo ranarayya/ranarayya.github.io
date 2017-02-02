@@ -1,14 +1,28 @@
-function formValidation()
+//function formValidation()
+function tosubmit()
 {
-var uid = document.registration.userid;
-var passid = document.registration.passid;
-var uname = document.registration.username;
-var uadd = document.registration.address;
-var ucountry = document.registration.country;
-var uzip = document.registration.zip;
-var uemail = document.registration.email;
-var umsex = document.registration.msex;
-var ufsex = document.registration.fsex; if(userid_validation(uid,5,12))
+var uid = document.getElementById("uid").value;
+var passid = document.getElementById("passid").value;
+var uname = document.getElementById("uname").value;
+var uadd = document.getElementById("uadd").value;
+var ucountry = document.getElementById("ucountry").value;
+var uzip = document.getElementById("uzip").value;
+var uemail = document.getElementById("uemail").value;
+var umsex = document.getElementById("umsex").value;
+var ufsex = document.getElementById("ufsex").value; 
+
+    localStorage.setItem("uid", uid);
+    localStorage.setItem("passid", passid);
+    localStorage.setItem("uname", uname);
+    localStorage.setItem("ucountry", ucountry);
+    localStorage.setItem("uzip", uzip);
+    localStorage.setItem("uemail", passid);
+    localStorage.setItem("umsex", umsex);
+    localStorage.setItem("ufsex", ufsex);
+    return true;
+}
+
+if(userid_validation(uid,5,12))
 {
 if(passid_validation(passid,7,12))
 {
@@ -147,12 +161,9 @@ alert('Form Succesfully Submitted');
 window.location.reload()
 return true;
 }
+    return true;
 }
 
-localStorage.setItem("username", username);
-localStorage.setItem("address", address);
 
-return true;
-           
 
 

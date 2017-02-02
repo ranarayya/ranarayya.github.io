@@ -9,8 +9,7 @@
     <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
     <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
     <link rel='stylesheet' href='formreg.css' type='text/css' />
-    <script src="formreg.js"></script>
-    
+    <script src="formreg1.js"></script>
 </head>
 
 <body>
@@ -24,14 +23,10 @@
         
 <h1>Buku Tamu - Sign guestbook</h1> Use tab keys to move from one input field to the next.
 
-<form name='registration' onsubmit="tosubmit();" action="confirm1.html">
-    
-<!--
-    <form name='registration' onSubmit="return formValidation();">
-        
--->
- 
-            <ul>
+
+        <form name="formreg1" onSubmit="tosubmit();"
+            action="confirm1.html">
+              <ul>
                 <li>
                     <label for="username">Name:</label>
                 </li>
@@ -89,15 +84,12 @@
                 <li>
                     <textarea name="desc" id="desc"></textarea>
                 </li>
-
                 <li>
                     <input type="submit" name="submit" value="Submit" />
                 </li>
             </ul>
-            
-             
         </form> 
-      
+        
 </body>
 </html>
     

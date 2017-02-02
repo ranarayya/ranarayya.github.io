@@ -1,8 +1,9 @@
 body{
     background-image: url("background-1884007_1920.jpg");
-    
-    
+       
 }
+/*
+
 div.iframe {
 
     color: black;
@@ -23,9 +24,14 @@ font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:14px;
 
 }
+*/
 
 h1 {
 margin-left: 50px;
+    font-family: comic sans;
+    font-size: 20px;
+    text-align: center;
+    color: #00ff00;
 
 }
 

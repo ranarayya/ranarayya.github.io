@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+
+    // Called on body's `onload` event
+    function init() {
+        // Retrieving the text input's value which was stored into localStorage
+        var nama = localStorage.getItem("nama");
+        var alamat = localStorage.getItem("alamat");
+
+        // Writing the value in the document
+        document.write("Nama = "+nama); 
+        document.write("Alamat = "+alamat);
+    }
+ 
+</script>
+</head>    
+
+<body onload="init();">
+
+</body>
+
+</html>
